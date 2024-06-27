@@ -102,7 +102,19 @@ public class Grib2RecordDS
         }
         else
         {
-            throw new NotSupportedException("Not supported yet!");
+            values = new float[nPoints];
+
+            for (int i = 0; i < values.length; i++)
+            {
+                    if (!isConstant)
+                    {
+                        values[i] = ref + scale * in.readUBits(drs.nBits);
+                    }
+                    else
+                    {
+                        values[i] = ref;
+                    }
+            }
         }
 
         return values;

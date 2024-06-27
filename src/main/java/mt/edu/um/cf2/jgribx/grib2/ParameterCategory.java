@@ -72,6 +72,7 @@ public abstract class ParameterCategory
             entries.put(6, "CLOUD");
             entries.put(7, "THERMODYNAMIC");
             entries.put(14, "TRACE_GASES");
+            entries.put(20, "ATMOSPHERIC_CONSTITUENTS");
         }
 
         public Meteorological(int categoryId)

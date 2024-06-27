@@ -1,0 +1,194 @@
+0	:	Mass Density (Concentration)	:	kg m^-3	:	MASSDEN
+1	:	Column-Integrated Mass Density (See Note 1)	:	kg m^-2	:	COLMD
+2	:	Mass Mixing Ratio (Mass Fraction in Air)	:	kg kg^-1	:	MASSMR
+3	:	Atmosphere Emission Mass Flux	:	kg m^-2s^-1	:	AEMFLX
+4	:	Atmosphere Net Production Mass Flux	:	kg m^-2s^-1	:	ANPMFLX
+5	:	Atmosphere Net Production And Emision Mass Flux	:	kg m^-2s^-1	:	ANPEMFLX
+6	:	Surface Dry Deposition Mass Flux	:	kg m^-2s^-1	:	SDDMFLX
+7	:	Surface Wet Deposition Mass Flux	:	kg m^-2s^-1	:	SWDMFLX
+8	:	Atmosphere Re-Emission Mass Flux	:	kg m^-2s^-1	:	AREMFLX
+9	:	Wet Deposition by Large-Scale Precipitation Mass Flux	:	kg m^-2s^-1	:	WLSMFLX
+10	:	Wet Deposition by Convective Precipitation Mass Flux	:	kg m^-2s^-1	:	WDCPMFLX
+11	:	Sedimentation Mass Flux	:	kg m^-2s^-1	:	SEDMFLX
+12	:	Dry Deposition Mass Flux	:	kg m^-2s^-1	:	DDMFLX
+13	:	Transfer From Hydrophobic to Hydrophilic	:	kg kg^-1s^-1	:	TRANHH
+14	:	Transfer From SO_2 (Sulphur Dioxide) to SO_4 (Sulphate)	:	kg kg^-1s^-1	:	TRSDS
+15	:	Dry deposition velocity	:	m s^-1	:	DDVEL
+16	:	Mass mixing ratio with respect to dry air	:	kg kg^-1	:	MSSRDRYA
+17	:	Mass mixing ratio with respect to wet air	:	kg kg^-1	:	MSSRWETA
+18	:	Reserved	:		:	
+19	:	Reserved	:		:	
+20	:	Reserved	:		:	
+21	:	Reserved	:		:	
+22	:	Reserved	:		:	
+23	:	Reserved	:		:	
+24	:	Reserved	:		:	
+25	:	Reserved	:		:	
+26	:	Reserved	:		:	
+27	:	Reserved	:		:	
+28	:	Reserved	:		:	
+29	:	Reserved	:		:	
+30	:	Reserved	:		:	
+31	:	Reserved	:		:	
+32	:	Reserved	:		:	
+33	:	Reserved	:		:	
+34	:	Reserved	:		:	
+35	:	Reserved	:		:	
+36	:	Reserved	:		:	
+37	:	Reserved	:		:	
+38	:	Reserved	:		:	
+39	:	Reserved	:		:	
+40	:	Reserved	:		:	
+41	:	Reserved	:		:	
+42	:	Reserved	:		:	
+43	:	Reserved	:		:	
+44	:	Reserved	:		:	
+45	:	Reserved	:		:	
+46	:	Reserved	:		:	
+47	:	Reserved	:		:	
+48	:	Reserved	:		:	
+49	:	Reserved	:		:	
+50	:	Amount in Atmosphere	:	mol	:	AIA
+51	:	Concentration In Air	:	mol m^-3	:	CONAIR
+52	:	Volume Mixing Ratio (Fraction in Air)	:	mol mol^-1	:	VMXR
+53	:	Chemical Gross Production Rate of Concentration	:	mol m^-3s^-1	:	CGPRC
+54	:	Chemical Gross Destruction Rate of Concentration	:	mol m^-3s^-1	:	CGDRC
+55	:	Surface Flux	:	mol m^-2s^-1	:	SFLUX
+56	:	Changes Of Amount in Atmosphere (See Note 1)	:	mol s^-1	:	COAIA
+57	:	Total Yearly Average Burden of The Atmosphere	:	mol	:	TYABA
+58	:	Total Yearly Average Atmospheric Loss (See Note 1)	:	mol s^-1	:	TYAAL
+59	:	Aerosol Number Concentration (See Note 2)	:	m^-3	:	ANCON
+60	:	Aerosol Specific Number Concentration (See Note 2)	:	kg^-1	:	ASNCON
+61	:	Maximum of Mass Density (See Note 1)	:	kg m^-3	:	MXMASSD
+62	:	Height of Mass Density	:	m	:	HGTMD
+63	:	Column-Averaged Mass Density in Layer	:	kg m^-3	:	CAVEMDL
+64	:	Mole fraction with respect to dry air	:	mol mol^-1	:	MOLRDRYA
+65	:	Mole fraction with respect to wet air	:	mol mol^-1	:	MOLRWETA
+66	:	Column-integrated in-cloud scavenging rate by precipitation		:	kg m^-2 s^-1	:	CINCLDSP
+67	:	Column-integrated below-cloud scavenging rate by precipitation	:	kg m^-2 s^-1	:	CBLCLDSP
+68	:	Column-integrated release rate from evaporating precipitation	:	kg m^-2 s^-1	:	CIRELREP
+69	:	Column-integrated in-cloud scavenging rate by large-scale precipitation	:	kg m^-2 s^-1	:	CINCSLSP
+70	:	Column-integrated below-cloud scavenging rate by large-scale precipitation	:	kg m^-2 s^-1	:	CBECSLSP
+71	:	Column-integrated release rate from evaporating large-scale precipitation	:	kg m^-2 s^-1	:	CRERELSP
+72	:	Column-integrated in-cloud scavenging rate by convective precipitation	:	kg m^-2 s^-1	:	CINCSRCP
+73	:	Column-integrated below-cloud scavenging rate by convective precipitation	:	kg m^-2 s^-1	:	CBLCSRCP
+74	:	Column-integrated release rate from evaporating convective precipitation	:	kg m^-2 s^-1	:	CIRERECP
+75	:	Wildfire flux	:	kg m^-2 s^-1	:	WFIREFLX
+76	:	Emission Rate	:	kg kg^-1 s^-1	:	EMISFLX
+77	:	Surface Emission flux	:	kg m^-2 s^-1	:	SFCEFLX
+78	:	Reserved	:		:	
+79	:	Reserved	:		:	
+80	:	Reserved	:		:	
+81	:	Reserved	:		:	
+82	:	Reserved	:		:	
+83	:	Reserved	:		:	
+84	:	Reserved	:		:	
+85	:	Reserved	:		:	
+86	:	Reserved	:		:	
+87	:	Reserved	:		:	
+88	:	Reserved	:		:	
+89	:	Reserved	:		:	
+90	:	Reserved	:		:	
+91	:	Reserved	:		:	
+92	:	Reserved	:		:	
+93	:	Reserved	:		:	
+94	:	Reserved	:		:	
+95	:	Reserved	:		:	
+96	:	Reserved	:		:	
+97	:	Reserved	:		:	
+98	:	Reserved	:		:	
+99	:	Reserved	:		:	
+100	:	Surface Area Density (Aerosol)	:	m^-1	:	SADEN
+101	:	Vertical Visual Range	:	m	:	ATMTK
+102	:	Aerosol Optical Thickness	:	Numeric	:	AOTK
+103	:	Single Scattering Albedo	:	Numeric	:	SSALBK
+104	:	Asymmetry Factor	:	Numeric	:	ASYSFK
+105	:	Aerosol Extinction Coefficient	:	m^-1	:	AECOEF
+106	:	Aerosol Absorption Coefficient	:	m^-1	:	AACOEF
+107	:	Aerosol Lidar Backscatter from Satellite	:	m^-1sr^-1	:	ALBSAT
+108	:	Aerosol Lidar Backscatter from the Ground	:	m^-1sr^-1	:	ALBGRD
+109	:	Aerosol Lidar Extinction from Satellite	:	m^-1	:	ALESAT
+110	:	Aerosol Lidar Extinction from the Ground	:	m^-1	:	ALEGRD
+111	:	Angstrom Exponent	:	Numeric	:	ANGSTEXP
+112	:	Scattering Aerosol Optical Thickness	:	Numeric	:	SCTAOTK
+113	:	Reserved	:		:	
+114	:	Reserved	:		:	
+115	:	Reserved	:		:	
+116	:	Reserved	:		:	
+117	:	Reserved	:		:	
+118	:	Reserved	:		:	
+119	:	Reserved	:		:	
+120	:	Reserved	:		:	
+121	:	Reserved	:		:	
+122	:	Reserved	:		:	
+123	:	Reserved	:		:	
+124	:	Reserved	:		:	
+125	:	Reserved	:		:	
+126	:	Reserved	:		:	
+127	:	Reserved	:		:	
+128	:	Reserved	:		:	
+129	:	Reserved	:		:	
+130	:	Reserved	:		:	
+131	:	Reserved	:		:	
+132	:	Reserved	:		:	
+133	:	Reserved	:		:	
+134	:	Reserved	:		:	
+135	:	Reserved	:		:	
+136	:	Reserved	:		:	
+137	:	Reserved	:		:	
+138	:	Reserved	:		:	
+139	:	Reserved	:		:	
+140	:	Reserved	:		:	
+141	:	Reserved	:		:	
+142	:	Reserved	:		:	
+143	:	Reserved	:		:	
+144	:	Reserved	:		:	
+145	:	Reserved	:		:	
+146	:	Reserved	:		:	
+147	:	Reserved	:		:	
+148	:	Reserved	:		:	
+149	:	Reserved	:		:	
+150	:	Reserved	:		:	
+151	:	Reserved	:		:	
+152	:	Reserved	:		:	
+153	:	Reserved	:		:	
+154	:	Reserved	:		:	
+155	:	Reserved	:		:	
+156	:	Reserved	:		:	
+157	:	Reserved	:		:	
+158	:	Reserved	:		:	
+159	:	Reserved	:		:	
+160	:	Reserved	:		:	
+161	:	Reserved	:		:	
+162	:	Reserved	:		:	
+163	:	Reserved	:		:	
+164	:	Reserved	:		:	
+165	:	Reserved	:		:	
+166	:	Reserved	:		:	
+167	:	Reserved	:		:	
+168	:	Reserved	:		:	
+169	:	Reserved	:		:	
+170	:	Reserved	:		:	
+171	:	Reserved	:		:	
+172	:	Reserved	:		:	
+173	:	Reserved	:		:	
+174	:	Reserved	:		:	
+175	:	Reserved	:		:	
+176	:	Reserved	:		:	
+177	:	Reserved	:		:	
+178	:	Reserved	:		:	
+179	:	Reserved	:		:	
+180	:	Reserved	:		:	
+181	:	Reserved	:		:	
+182	:	Reserved	:		:	
+183	:	Reserved	:		:	
+184	:	Reserved	:		:	
+185	:	Reserved	:		:	
+186	:	Reserved	:		:	
+187	:	Reserved	:		:	
+188	:	Reserved	:		:	
+189	:	Reserved	:		:	
+190	:	Reserved	:		:	
+191	:	Reserved	:		:	
+192-254	:	Reservedfor Local Use	:		:	
+255	:	Missing	:		:

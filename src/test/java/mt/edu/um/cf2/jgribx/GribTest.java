@@ -190,4 +190,21 @@ public class GribTest
         }
         return max;
     }
+
+    @Test
+    public void testGrib2_CAMS_PM10() throws IOException, NoValidGribException, NotSupportedException
+    {
+        final String FILENAME = "/adaptor.cams_regional_fc.retrieve-1718905751.6793149-17578-11-e4c7ee0e-ad01-4781-9615-a432ba873876.grib";
+
+        // Define expected data
+        final int N_RECORDS_EXPECTED = 3;
+        final int EDITION = 2;
+
+        URL url = GribTest.class.getResource(FILENAME);
+        GribFile file = new GribFile(url.openStream());
+
+        assertEquals("GRIB edition", EDITION, file.getEdition());
+        assertEquals("Parameter codes", new ArrayList<>(List.of("MASSDEN")), file.getParameterCodes());
+        assertEquals("Records read successfully", N_RECORDS_EXPECTED, file.getRecordCount());
+    }
 }

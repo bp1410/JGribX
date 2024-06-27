@@ -136,6 +136,10 @@ public class Grib2RecordPDS
         {
             // Analysis or forecast at a horizontal level or layer at a point in time
             case 0:
+            // GRIB2 - PRODUCT DEFINITION TEMPLATE 4.40
+            // Analysis or Forecast at a horizontal level or in a horizontal layer
+            // at a point in time for atmospheric chemical constituents
+            case 40:
                 /* [10] Parameter category */
                 paramCategory = in.readUINT(1);
                 
@@ -150,6 +154,10 @@ public class Grib2RecordPDS
                 {
                     throw new NotSupportedException("Unsupported parameter: D:" + discipline + " C:" + paramCategory
                             + " N:" + paramNumber);
+                }
+                /* [12,13] Atmospheric Chemical Constituent Type for PRODUCT DEFINITION TEMPLATE 4.40 */
+                if(templateId == 40){
+                    int atmosphericConstituentType = in.readUINT(2);
                 }
 
                 /* [12] Type of generating process */
