@@ -149,6 +149,38 @@ public abstract class Grib2RecordGDS
     {
         return nDataPoints;
     }
+
+    public double getLat1() {
+        return lat1;
+    }
+
+    public double getLat2() {
+        return lat2;
+    }
+
+    public double getLon1() {
+        return lon1;
+    }
+
+    public double getLon2() {
+        return lon2;
+    }
+
+    public double getGridDi() {
+        return gridDi;
+    }
+
+    public double getGridDj() {
+        return gridDj;
+    }
+
+    public int getGridNi() {
+        return gridNi;
+    }
+
+    public int getGridNj() {
+        return gridNj;
+    }
     
     protected abstract double[][] getGridCoords();
     protected abstract double[] getGridXCoords();

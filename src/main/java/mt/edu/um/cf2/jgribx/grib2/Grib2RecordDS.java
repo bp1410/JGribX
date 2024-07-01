@@ -465,6 +465,14 @@ public class Grib2RecordDS
         return result;
     }
 
+    public int getLength() {
+        return length;
+    }
+
+    public float[] getData() {
+        return data;
+    }
+
     private static boolean isBitSet(int data, int iBit)
     {
         return ((data & (1 << iBit)) != 0);
